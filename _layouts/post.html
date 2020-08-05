@@ -1,32 +1,45 @@
----
-layout: default
----
-<article class="post">
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
 
-	{% if page.external-url %}
-		<h1>
-			<a href="{{ page.external-url }}">{{ page.title }}</a> 
-			<a class="anchor" href="{{ page.url }}"><i class="icon-anchor"></i></a>
-		</h1>
-	{% else %}
-		<div style="clear: both"><h1 style="float: left"><a href="{{ post.url }}">{{ page.title }}</a></h1><h3 style="float: right">{{ page.date | date: "%d/%m/%Y" }}</h3></div>
-	{% endif %}
+<body>
 
-	<div class="post-content" style="clear: both">{{ content }}</div>
+  <div class="container">
+    {% include header.html %}
 
-	<p class="meta">Posted on <span class="postdate">{{ page.date | date: "%b %d, %Y" }}</span></p>
+    <div class="post-container">
+      <article id = "post">
+        <h2 id = "post-title">{{ page.title }}</h2>
 
-</article>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = 'Android Arch';
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+  {% if site.data.settings.date-under-post.active %}
+  <div class = "post-info">
+    <span>
+        <i class="far fa-calendar" aria-hidden="true"></i> <span>{{ page.date | date_to_string }}</span> - <i class="far fa-clock"></i> {% include reading_time.html %}
+    </span>
+  </div>
+  {% endif %}
+        {{ content }}
+      </article>
+    </div>
+    {% if site.data.settings.categories.active %}
+      {% include categories.html %}
+    {% endif %}
+
+    {% if site.data.settings.related-posts.active %}
+      {% include related-posts.html %}
+    {% endif %}
+
+    {% if site.data.settings.disqus.disqus_shortname %}
+      {% include disqus.html %}
+    {% endif %}
+  </div>
+
+{%- include footer.html -%}
+
+{% if site.data.settings.mathjax.active %}
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
+</body>
+</html>
