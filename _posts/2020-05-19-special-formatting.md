@@ -4,9 +4,9 @@ layout: post
 categories: [Tips, Markdown, Typography]
 image: /assets/img/forest-snow.jpg
 description: "A bunch of tips on how to format your text."
-customexcerpt: "Learn and discover the special features of YAMT."
+customexcerpt: "Learn and discover the special features of AAC."
 ---
-In this post I will showcase some of the "special" features of YAMT.
+In this post I will showcase some of the "special" features of AAC.
 This post is pretty long, so let's start with a Table of Content (ToC).
 
 ### Table of Contents

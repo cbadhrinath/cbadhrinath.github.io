@@ -1,12 +1,12 @@
 ---
-title: This is YAMT!
+title: This is AAC!
 layout: post
 categories: [Typography, Markdown, Tips]
 image: /assets/img/logo.jpg
-description: "Welcome to YAMT - Yet Another Minimal Theme."
+description: "Welcome to AAC"
 ---
 
-Welcome to YAMT - Yet Another Minimal Theme. YAMT is a minimal Jekyll theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.
+Welcome to AAC - A blog focused on Android Architecture Components. It has great modularity, allowing you to easily decide what you actually want on your app.
 
 * hello
 {:toc}
