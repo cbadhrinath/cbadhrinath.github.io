@@ -1,9 +1,9 @@
-name: Appdroidlab
-url: http://appdroidlab.github.io
+name: Android Arch
+url: http://cbadhrinath.github.io
 description: A blog by an android evangelist
 
 permalink: /:year/:month/:day/:title/
-paginate: 10
+paginate: 5
 pygments: true
 excerpt_separator: "<!-- more -->"
 

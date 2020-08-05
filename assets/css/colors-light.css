@@ -33,7 +33,7 @@ article h1 a.anchor {
 }
 
 blockquote {
-	border-left: 3px solid #FFDC00;
+	border-left: 3px solid #4285F4;
 }
 
 #sidebar a:hover {
@@ -42,7 +42,7 @@ blockquote {
 }
 
 #footer {
-	border-top: 3px solid #FFDC00;
+	border-top: 3px solid #4285F4;
 }
 
 
