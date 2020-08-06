@@ -1,44 +1,66 @@
-Solar Theme for Jekyll
-======================
+purehugo
+========
 
-A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
+Hugo theme based on [purecss](http://purecss.io/) from Yahoo. The theme is based on [the purecss blog layout example](http://purecss.io/layouts/blog/), is responsive and has a few more features: pagination (if enabled), responsive images (through a shortcode), google analytics, disqus comments and even a mini-asset-pipeline using gulp. If you end up using it, I'd love to see what you do with it so please give me a shout on [twitter](https://twitter.com/dragos_plesca).
 
-![Screenshot](http://i.imgur.com/UnnRhkt.png)
+### Installation
+
+Navigate to your Hugo site's theme folder
+```
+$ cd themes
+$ git clone https://github.com/dplesca/purehugo.git
+```
+
+### Config file
+
+The config file for the demo site looks like this:
+
+```toml
+baseurl = "http://dplesca.github.io/purehugo/"
+languageCode = "en-us"
+title = "purehugo"
+theme = "purehugo"
+Paginate = 10
+disqusShortname = "xxxx"
+
+[params]
+  twitterName = "dragos_plesca"
+  githubName = "dplesca"
+  stackOverflowId = "#######"
+  linkedinName = "dragos-plesca-52797444"
+  description = "Demo site for a hugo theme"
+  google_analytics = "UA-xxxxxx-xx"
+```
+
+Notice the configuration necessary for disqus comments (just setting the disqusShortname); the twitter, github, stack overflow and linkedin handlers (for the site sidebar); the site description and enabling Google Analytics reporting.
+
+### Responsive Images
+
+For responsive images you could use the built-in responsive image shortcode (without the `/**/` characters):  
+```
+{{%/* img-responsive "http://example.com/image.jpg" */%}}
+```
+
+### Hide Share Options
+
+If you would like to hide the share options in the single post view, you can add this option in the `params` section of your config file.
+
+```toml
+[params]
+  # ... other options ...
+  hideShareOptions = true
+```
+
+### Hide Sidebar icons text Options
 
 
-Features
--------
+If you would like to hide the text next to the icons on the sidebar, you can add this option in the `params` section of your config file.
 
-* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
-* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
-* **Responsive Design** — Solarized adapts to fit any screen size.
+```toml
+[params]
+  # ... other options ...
+  hideSidebarIconText = true
+```
 
-
-Installation
---------------
-
-There are two ways to use Solar. You can either clone-and-go, copying the repository and tweaking the contents to taste, or you can cherry-pick the files you want and integrate them into an existing Jekyll instance. 
-
-If you're starting a new blog, you want to clone-and-go. Just `git clone https://github.com/redwallhp/solar-theme-jekyll.git`, make any changes you want to the template, pages or `_config.yml` and start blogging with Jekyll. Easy.
-
-If you're wanting to replace the theme of an existing Jekyll blog, either option should work. If you want to replace files individually, the files and directories you want to make sure to copy are:
-
-1. `_layouts`
-2. `archives`
-3. `assets`
-4. `feed.xml`
-5. `index.xml`
-
-You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
-
-
-Demo
--------
-
-You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
-
-
-License
----------
-
-GPLv2 or higher
+### Screenshot
+![Screenshot](https://i.imgur.com/Dsj41Rz.png)
