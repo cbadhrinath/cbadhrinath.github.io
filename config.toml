@@ -1,4 +1,4 @@
-baseURL = "https://cbadhrinath.github.io/"
+baseURL = "https://cbadhrinath.github.io"
 languageCode = "en-gb"
 title = "Algodroider"
 Paginate = 5
