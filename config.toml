@@ -1,0 +1,16 @@
+baseURL = "https://cbadhrinath.github.io/"
+languageCode = "en-gb"
+title = "Algodroider"
+Paginate = 5
+disqusShortname = "disqus_l9zIeBbFLw"
+
+
+[params]
+  twitterName = "badhrinathc"
+  githubName = "cbadhrinath"
+  stackOverflowId = 2393309
+  linkedinName = "cbadhrinath"
+  description = "A blog by an ardent androider"
+  google_analytics = "UA-xxxxxx-xx"
+  hideShareOptions = true
+  hideSidebarIconText = true
