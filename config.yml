@@ -1,4 +1,4 @@
-baseURL: https://cbadhrinath.github.io/
+baseURL: https://cbadhrinath.github.io/index.html
 publishDir: docs
 theme: pure
 title: Pure theme for Hugo
