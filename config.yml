@@ -1,5 +1,5 @@
 baseURL: https://cbadhrinath.github.io/
-publishDir: "public"
+publishDir: docs
 theme: pure
 title: Pure theme for Hugo
 defaultContentLanguage: en  # en/zh/...
