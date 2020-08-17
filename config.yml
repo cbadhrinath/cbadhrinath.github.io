@@ -1,7 +1,7 @@
 baseURL: https://cbadhrinath.github.io/index.html
 publishDir: docs
 theme: pure
-title: Pure theme for Hugo
+title: Badhri's blog
 defaultContentLanguage: en  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
@@ -65,7 +65,7 @@ menu:
 
 
 params:
-  since: 2017
+  since: 2020
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -119,7 +119,7 @@ params:
       url: favicon.ico
     title: Hugo # 页面title
     favicon: favicon.ico
-    board: <p>enjoy~</p> # 公告牌
+    board: <p>Think twice, code once~</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
