@@ -1,14 +1,14 @@
 baseURL: https://cbadhrinath.github.io/index.html
 publishDir: docs
 theme: pure
-title: Badhri's blog
+title: An Android dev's blog
 defaultContentLanguage: en  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
 paginate: 7
 enableEmoji: true
 PygmentsCodeFences: false
-googleAnalytics: ""      # UA-XXXXXXXX-X 
+googleAnalytics: "G-V0ZQ21ZP4N"      # UA-XXXXXXXX-X
 permalinks:
   posts: /:year/:month/:filename/
 
@@ -65,7 +65,7 @@ menu:
 
 
 params:
-  since: 2020
+  since: 2017
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -119,21 +119,21 @@ params:
       url: favicon.ico
     title: Hugo # 页面title
     favicon: favicon.ico
-    board: <p>Think twice, code once~</p> # 公告牌
+    board: <p>enjoy~</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
   share:
     enable: true # 是否启用分享
-    sites: linkedin,twitter # PC端显示的分享图标
-    mobile_sites: linkedin,twitter # 移动端显示的分享图标
+    sites: linkedin,twitter # PC
+    mobile_sites: linkedin,twitter 
 
   # Comment
   comment:
-    type:  # type disqus/gitalk/valine 启用哪种评论系统
-    disqus: your_disqus_name # enter disqus shortname here
+    type: disqus # type disqus/gitalk/valine
+    disqus: badhri # enter disqus shortname here
     gitalk: # gitalk. https://gitalk.github.io/
-      owner: #必须. GitHub repository 所有者，可以是个人或者组织。
+      owner: #必须. GitHub repository 
       admin: #必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
       repo:  #必须. GitHub repository.
       ClientID: #必须. GitHub Application Client ID.
