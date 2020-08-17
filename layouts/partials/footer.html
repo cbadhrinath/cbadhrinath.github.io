@@ -1,6 +1,6 @@
 <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
   {{- partial "social.html" . }}
-  <div class="copyright">
+  <!--<div class="copyright">
     {{-  $current := now.Format "2006" }}
     &copy;
     {{- if ne .Site.Params.since $current -}}
@@ -8,7 +8,15 @@
     {{- end }}
     {{ $current }}
     <div class="publishby">
-        {{T "copyright_theme_by"}} <a href="https://github.com/xiaoheiAh" target="_blank"> xiaoheiAh </a>{{T "copyright_base_on"}}<a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> pure</a>.
+        Powered by <a href="https://gohugo.io/" target="_blank"> Hugo </a> with <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> Pure</a> theme.
+    </div>
+  </div>--> 
+  <div class="copyright">
+    {{-  $current := now.Format "2006" }}
+    &copy;
+    {{ $current }}
+    <div class="publishby">
+        Powered by <a href="https://gohugo.io/" target="_blank"> Hugo </a> with <a href="https://github.com/xiaoheiAh/hugo-theme-pure" target="_blank"> Pure</a> theme.
     </div>
   </div>
 
