@@ -8,7 +8,7 @@ hasCJKLanguage: true
 paginate: 7
 enableEmoji: true
 PygmentsCodeFences: false
-googleAnalytics: "G-V0ZQ21ZP4N"      # UA-XXXXXXXX-X
+googleAnalytics: "UA-175554510-1"      # UA-XXXXXXXX-X
 permalinks:
   posts: /:year/:month/:filename/
 
@@ -65,7 +65,7 @@ menu:
 
 
 params:
-  since: 2017
+  since: 2020
   dateFormatToUse: "2006-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -97,8 +97,8 @@ params:
     avatar: avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: Badhri
-    author_title: Android Developer
-    author_description: Code is Poetry
+    author_title: Senior Android Developer
+    author_description: An avant-garde Android dev.
     location: London, UK
     follow: https://github.com/cbadhrinath
     # Social Links
@@ -119,7 +119,7 @@ params:
       url: favicon.ico
     title: Hugo # 页面title
     favicon: favicon.ico
-    board: <p>enjoy~</p> # 公告牌
+    board: <p>Think twice, code once.</p> # 公告牌
 
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
