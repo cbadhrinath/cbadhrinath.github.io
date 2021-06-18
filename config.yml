@@ -1,7 +1,7 @@
 baseURL: https://cbadhrinath.github.io/
 publishDir: docs
 theme: pure
-title: An Android dev's blog
+title: Badhri's blog
 defaultContentLanguage: en  # en/zh/...
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
@@ -97,7 +97,7 @@ params:
     avatar: avatar.png
     gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
     author: Badhri
-    author_title: Senior Android Developer
+    author_title: Senior Android Engineer
     author_description: An avant-garde Android dev.
     location: London, UK
     follow: https://github.com/cbadhrinath
@@ -178,7 +178,7 @@ params:
 
   # config
   config:
-    skin: theme-blue # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
+    skin: theme-black # theme color default is white. other type [theme-black,theme-blue,theme-green,theme-purple]
     layout: main-center # main-left main-center main-right
     excerpt_link: Read More
     toc: true
