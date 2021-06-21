@@ -1,7 +1,7 @@
 +++
 title = "About"
 description = "Hugo, the world’s fastest framework for building websites"
-date = "2021-03-1"
+date = "2021-03-01"
 aliases = ["about-us","about-hugo","contact"]
 author = "Badhri"
 +++
