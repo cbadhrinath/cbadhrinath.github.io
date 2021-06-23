@@ -2,7 +2,7 @@ baseURL: https://cbadhrinath.github.io/
 publishDir: docs
 theme: pure
 title: Badhri's blog
-defaultContentLanguage: en  # en/zh/...
+defaultContentLanguage: en  
 footnoteReturnLinkContents: ↩
 hasCJKLanguage: true
 paginate: 7
@@ -81,7 +81,7 @@ params:
   # customCSS: css/custom.css
 
   menuIcons:
-    enable: true  # 是否启用导航菜单图标
+    enable: true  
     home: icon-home-fill
     archives: icon-archives-fill
     categories: icon-folder
@@ -164,17 +164,17 @@ params:
   # PV
   pv:
     busuanzi:
-      enable: false # 不蒜子统计
+      enable: false
     leancloud:
-      enable: false # leancloud统计
+      enable: false 
       app_id: # leancloud <AppID>
       app_key: # leancloud <AppKey>
 
   # wordcount
   postCount:
     enable: true
-    wordcount: true # 文章字数统计
-    min2read: true # read time 阅读时长预计
+    wordcount: true 
+    min2read: true # read time 
 
   # config
   config:
