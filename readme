@@ -1,0 +1,7 @@
+How to use Hugo:
+
+1. Update posts under Blog -> content folder
+2. Check it with 'hugo serve' command
+3. Generate static pages with 'hugo -D'
+4. Push the generated files to master branch.
+5. Note: the directories 'theme' , 'content' are part of git ignore. [May need backing up]

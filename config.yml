@@ -1,6 +1,6 @@
 baseURL: https://badhri.dev
 publishDir: docs
-theme: pure
+theme: Pure
 title: Badhri's blog
 defaultContentLanguage: en  
 footnoteReturnLinkContents: ↩
@@ -105,7 +105,6 @@ params:
     social:
       links:
         github: https://github.com/cbadhrinath
-        # weibo: http://weibo.com/{yourid}
         twitter: https://twitter.com/badhrinathc
         # facebook: /
         rss: /index.xml
@@ -124,7 +123,7 @@ params:
   # Share
   # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
   share:
-    enable: true # 是否启用分享
+    enable: true
     sites: linkedin,twitter # PC
     mobile_sites: linkedin,twitter 
 
