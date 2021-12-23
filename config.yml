@@ -65,7 +65,7 @@ menu:
 
 
 params:
-  since: 2020
+  since: 2021
   dateFormatToUse: "2003-01-02"
   enablePostCopyright: true
   # the directory under content folder that you want to render
@@ -121,7 +121,7 @@ params:
     board: <p>Think twice, code once.</p> # 公告牌
 
   # Share
-  # weibo,qq,qzone,wechat,tencent,douban,diandian,facebook,twitter,google,linkedin
+  # facebook,twitter,google,linkedin
   share:
     enable: true
     sites: linkedin,twitter # PC
@@ -147,18 +147,6 @@ params:
       meta: nick,mail # custom comment header
       pageSize: 10 # pagination size
       visitor: false # Article reading statistic https://valine.js.org/visitor.html
-
-  # Donate
-  donate:
-    enable: false
-    # 微信打赏
-    wechatpay:
-      qrcode: donate/wechatpayimg.png
-      title: 微信支付
-    # 支付宝打赏
-    alipay:
-      qrcode: donate/alipayimg.png
-      title: 支付宝
 
   # PV
   pv:
