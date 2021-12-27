@@ -1,0 +1,60 @@
+JPC codelabs:   
+
+https://developer.android.com/courses/pathways/compose
+
+————————————————————————————————————————————————————————————————————————————————————————————————
+
+Quotes from pro devs: 
+
+* Truly understand state and re-rendering in JetPack Compose. It will make your life a ton easier. This is the true power of JetPack Compose. 
+
+————————————————————————————————————————————————————————————————————————————————————————————————
+
+
+
+Dev notes:
+
+
+JPC basics:
+1. Simplifies and accelerates UI development on Android with less code, powerful tools, and intuitive Kotlin APIs. 
+2. Can build UI components with declarative functions without editing any XML layouts or using the Layout Editor. 
+3. We will call Jetpack Compose functions to say what elements we want, and the Compose compiler will do the rest. 
+4. Add JPC toolkit dependencies : https://developer.android.com/jetpack/compose/interop/adding
+5. No activity needed
+6. Create @Compose method with @Preview for preview without emulator
+
+
+Layouts: 
+1. UI elements are hierarchical, with elements contained in other elements. i.e build a UI hierarchy by calling composable functions from other composable functions
+    - Column: Lets you arrange elements vertically, 
+    - Row: arrange horizontally, 
+    - Box: to stack elements, 
+    - Spacer: lets us to create space between elements
+2. Image composable lets us to set images
+3. Modifiers: 
+    - Helps to decorate or configure a composable. 
+    - Allow us to change the composable's size, layout, appearance or add high-level interactions, i.e making an element clickable.  
+    - We can chain them to create richer composables. 
+
+
+Material Design:
+1. Compose is built to support material design principles. Many of its UI elements implement material design out of the box. 
+2. Default theme name is same as package name: MyApplicationTheme { }  or we could find it under ui.theme package
+3. Material Design is built around three pillars: Color, Typography, Shape. 
+4. Surface: Composable to create shape with elevation
+5. Dark theme is handled automatically if we use Material Design’s JPC support
+6. Can create multiple previews with names to test dark mode
+7. Color choices for the light and dark themes are defined in the IDE-generated Theme.kt file.
+
+
+Lists :
+1. LazyColumn and LazyRow  Composables render only the elements that are visible on screen, so very efficient for long lists. They avoid the complexity of RecyclerView with XML.
+2. It has an items child. It takes a list as a parameter 
+		
+
+Animation: 
+1. To keep track of the local state changes, we use remember and mutableStateOf. 
+2. Recomposition : Composables using this state will get redrawn automatically when its value gets updated.
+3. Modifier.clickable() with callback can be used to update the state’s value, based on a Composable’s click.
+
+
